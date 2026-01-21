@@ -1,0 +1,25 @@
+# Ruby/Bundler
+/.bundle/
+/vendor/bundle/
+*.gem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+/pkg/
+/dist/
+*.deb
+*.rpm
+*.pkg.tar.zst
+
+# Logs
+*.log
