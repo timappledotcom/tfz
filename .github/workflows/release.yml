@@ -125,7 +125,7 @@ jobs:
       
       - name: Setup build environment
         run: |
-          pacman -Syu --noconfirm base-devel sudo
+          pacman -Syu --noconfirm base-devel sudo ruby ruby-bundler
           useradd -m builder
           echo "builder ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
           chown -R builder:builder .
